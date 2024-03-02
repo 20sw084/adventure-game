@@ -10,7 +10,6 @@ opposite direction = case direction of
 noActions :: Item -> GameState -> Next GameState
 noActions item _ = Same ("There is nothing that can be done with the " ++ show item)
 
-
 winningRoom :: Room
 winningRoom = Room {
     name        = "Emerald Chamber", 
